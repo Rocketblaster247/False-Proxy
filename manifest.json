@@ -15,5 +15,6 @@
       "js": ["False-Proxy.js"]
     }
   ]
-
+  
+  "devtools_page": "devtools/devtools-page.html"
 }
