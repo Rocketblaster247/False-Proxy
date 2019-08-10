@@ -14,7 +14,7 @@
       "matches": ["<all_urls>"],
       "js": ["False-Proxy.js"]
     }
-  ]
+  ],
   
-  "devtools_page": "devtools/devtools-page.html"
+  "devtools_page": "devtools/devtools-page.html",
 }
