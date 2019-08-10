@@ -1,0 +1,19 @@
+{
+
+  "description": "A Firefox extension made to edit xhr request on the fly.",
+  "manifest_version": 2,
+  "name": "False-Proxy",
+  "version": "1.0",
+  "homepage_url": "https://www.github.com/Rocketblaster247/False-Proxy",
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*"],
+      "js": ["False-Proxy.js"]
+    }
+  ]
+
+}
