@@ -1,20 +1,22 @@
 {
-
-  "description": "A Firefox extension made to edit XHR request on the fly.",
+  "description": "Edit XHR Requests",
   "manifest_version": 2,
-  "name": "False-Proxy",
+  "name": "False Proxy",
   "version": "1.0",
-  "homepage_url": "https://www.github.com/Rocketblaster247/False-Proxy",
+  "author": "Rocketblaster247",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/devtools-panels",
   "icons": {
     "48": "icons/border-48.png"
   },
-
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["False-Proxy.js"]
-    }
+  
+  "background": {
+    "scripts": ["background_scripts/background.js"]
+  },
+  
+  "permissions": [
+      "<all_urls>"
   ],
   
-  "devtools_page": "devtools/devtools-page.html",
+  "devtools_page": "devtools/devtools-page.html"
+
 }
